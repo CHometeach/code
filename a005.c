@@ -2,20 +2,32 @@
 
 int main(int argc, char const *argv[])
 {
-	int t, a, b, c, d;
+	int t, i = 0, j = 0;
+	int loop = 4;
+	int x[loop];
 	scanf("%d",&t);
-	while(scanf("%d%d%d%d",&a,&b,&c,&d) != EOF){
-		if (b-a == c-b && c-b == d-c && b-a == d-c)
-		{
-			printf("%d %d %d %d %d\n",a,b,c,d,2*d-c);
+	if(t >= 0 && t <= 20){
+		for(j = 0 ; j < t ; j++){
+			for (i = 0; i < loop; i++)
+			{
+				scanf("%d",&x[i]);
+			}
+			i = 0;
+			if (x[i+1] - x[i] == x[i+3] - x[i+2])
+			{
+				printf("%d %d %d %d %d\n",x[i],x[i+1],x[i+2],x[i+3],2*(x[i+3])-(x[i+2]));
+			}
+			else if (x[i+1] / x[i] == x[i+3] / x[i+2])
+			{
+				printf("%d %d %d %d %d\n",x[i],x[i+1],x[i+2],x[i+3],(x[i+3])*(x[i+3])/(x[i+2]));
+			}
+			else{
+				break;
+			}
 		}
-		else if (b/a == c/b && c/b == d/c && b/a == d/c)
-		{
-			printf("%d %d %d %d %d\n",a,b,c,d,d*d/c);
-		}
-		else{
-			break;
-		}
+	}
+	else{
+		return 0;
 	}
 
 	return 0;
