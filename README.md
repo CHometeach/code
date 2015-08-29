@@ -18,3 +18,13 @@ Sean 的保送之路
 
 ##### 回家作業：
 1. 完成 a006.c
+
+## 20150829
+1. 寫 a009.c
+2. 再次解說 Web Developer 目前常見的流派
+3. POST/GET 和 Backend 的關係
+4. 下次準備學習 Ruby on Rails
+5. 60mins 學 `C`, 30mins 學 `Web Development`
+
+##### 回家作業：
+1. 完成 a009.c
