@@ -30,11 +30,7 @@ int main(int argc, char const *argv[]) {
 			}			 
 		}
 	}
-	int x = -500099;
-	int y = -600009;
-	printf("test : %d\n", x * y);
 	printf("%d %d %f\n", point1, point2, min);
-	// printf("%f\n", sqrt(12392492324353*1000000));
 	return 0;
 }
 
