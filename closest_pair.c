@@ -36,7 +36,7 @@ int main(int argc, char const *argv[]) {
 
 double getDistance (int x1, int y1, int x2, int y2) {
 	double distance;
-	distance = sqrt(pow((x1 - x2), 2) + pow((y1 - y2), 2));
-	printf("%d %d %d %d = %f\n", x1, y1, x2, y2, distance);
+	distance = sqrt(pow((x1 - x2),2) + pow((y1 - y2),2));
+	printf("%d %d %d %d = %lf\n", x1, y1, x2, y2, distance);
 	return distance;
 }
