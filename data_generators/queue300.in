@@ -1,0 +1,300 @@
+enqueue 73
+enqueue 39
+enqueue 29
+dequeue
+dequeue
+dequeue
+is_empty
+enqueue 52
+dequeue
+dequeue
+is_empty
+dequeue
+dequeue
+enqueue 19
+dequeue
+is_empty
+dequeue
+dequeue
+head
+dequeue
+dequeue
+enqueue 40
+enqueue 13
+enqueue 99
+enqueue 61
+dequeue
+dequeue
+dequeue
+enqueue 71
+dequeue
+head
+dequeue
+enqueue 97
+head
+dequeue
+dequeue
+enqueue 53
+head
+dequeue
+dequeue
+enqueue 9
+enqueue 7
+enqueue 36
+dequeue
+dequeue
+dequeue
+enqueue 86
+dequeue
+enqueue 2
+enqueue 50
+enqueue 21
+dequeue
+dequeue
+dequeue
+enqueue 65
+enqueue 3
+enqueue 99
+enqueue 96
+enqueue 19
+dequeue
+enqueue 93
+head
+tail
+head
+enqueue 45
+dequeue
+enqueue 27
+dequeue
+enqueue 95
+enqueue 7
+enqueue 28
+enqueue 86
+enqueue 40
+enqueue 89
+dequeue
+enqueue 93
+enqueue 59
+dequeue
+is_empty
+dequeue
+tail
+dequeue
+head
+head
+enqueue 5
+enqueue 75
+dequeue
+dequeue
+dequeue
+enqueue 48
+dequeue
+enqueue 43
+enqueue 39
+dequeue
+enqueue 93
+enqueue 32
+enqueue 12
+tail
+enqueue 6
+enqueue 22
+tail
+tail
+enqueue 24
+enqueue 44
+head
+dequeue
+enqueue 63
+dequeue
+dequeue
+enqueue 20
+dequeue
+enqueue 65
+enqueue 8
+dequeue
+enqueue 39
+head
+enqueue 57
+enqueue 37
+enqueue 28
+enqueue 49
+enqueue 49
+dequeue
+head
+dequeue
+dequeue
+enqueue 6
+dequeue
+dequeue
+enqueue 56
+dequeue
+is_empty
+dequeue
+dequeue
+enqueue 62
+dequeue
+tail
+enqueue 25
+dequeue
+head
+is_empty
+enqueue 83
+enqueue 3
+dequeue
+enqueue 4
+dequeue
+enqueue 22
+is_empty
+enqueue 48
+enqueue 62
+enqueue 34
+enqueue 66
+dequeue
+dequeue
+dequeue
+dequeue
+dequeue
+tail
+is_empty
+dequeue
+dequeue
+enqueue 85
+is_empty
+dequeue
+enqueue 8
+dequeue
+dequeue
+enqueue 29
+dequeue
+dequeue
+dequeue
+enqueue 34
+dequeue
+enqueue 9
+dequeue
+enqueue 86
+dequeue
+is_empty
+head
+is_empty
+dequeue
+dequeue
+dequeue
+enqueue 5
+dequeue
+is_empty
+enqueue 49
+enqueue 38
+enqueue 68
+dequeue
+enqueue 34
+dequeue
+head
+enqueue 28
+enqueue 89
+enqueue 15
+enqueue 54
+enqueue 76
+enqueue 63
+enqueue 36
+dequeue
+dequeue
+enqueue 22
+enqueue 17
+enqueue 15
+is_empty
+enqueue 82
+head
+dequeue
+dequeue
+dequeue
+dequeue
+enqueue 14
+dequeue
+dequeue
+enqueue 31
+dequeue
+dequeue
+enqueue 87
+enqueue 22
+dequeue
+head
+dequeue
+tail
+enqueue 22
+enqueue 75
+head
+enqueue 67
+enqueue 93
+dequeue
+dequeue
+dequeue
+is_empty
+dequeue
+dequeue
+head
+dequeue
+dequeue
+dequeue
+enqueue 29
+enqueue 56
+enqueue 51
+enqueue 12
+tail
+is_empty
+is_empty
+enqueue 20
+tail
+dequeue
+dequeue
+dequeue
+dequeue
+dequeue
+dequeue
+enqueue 19
+enqueue 68
+head
+dequeue
+is_empty
+head
+dequeue
+enqueue 16
+dequeue
+dequeue
+enqueue 25
+is_empty
+dequeue
+dequeue
+enqueue 90
+enqueue 65
+dequeue
+enqueue 83
+enqueue 14
+enqueue 9
+dequeue
+is_empty
+tail
+head
+enqueue 5
+dequeue
+dequeue
+is_empty
+head
+enqueue 11
+enqueue 54
+enqueue 91
+dequeue
+enqueue 23
+enqueue 97
+enqueue 48
+enqueue 74
+dequeue
+enqueue 41
+enqueue 71
+enqueue 61
+dequeue
+dequeue
+dequeue
+dequeue
+dequeue
+dequeue
