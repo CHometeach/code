@@ -4,7 +4,7 @@
 using namespace std;
 
 int main(int argc, char const *argv[]) {
-	vector<int> ivector(40);
+	vector<int> ivector;
 	char command[15];
 	for (;;) {
 		int len, n, val;

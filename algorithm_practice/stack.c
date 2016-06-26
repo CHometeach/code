@@ -4,20 +4,20 @@ int count_stack = 0;
 char can[20];
 char empty;
 
-void push(char inpt);
+void push(char input);
 char pop();
 
 int main(int argc, char const *argv[])
 {
-	char inpt[6];
+	char input[6];
 	int i, count = 0, outpt[10];
-	while (scanf("%s", inpt) != EOF) {
-		printf("[%s]\n", inpt);
-		if (inpt[1] == 'u' && inpt[2] == 's') {
-			push(inpt[5]);
+	while (scanf("%s", input) != EOF) {
+		printf("[%s]\n", input);
+		if (input[1] == 'u' && input[2] == 's') {
+			push(input[5]);
 			printf("push\n");
 		}
-		else if (inpt[0] == 'e') {
+		else if (input[0] == 'e') {
 			break;
 
 		}
@@ -37,8 +37,8 @@ int main(int argc, char const *argv[])
 	return 0;
 }
 
-void push(char inpt) {
-	can[count_stack] = inpt;
+void push(char input) {
+	can[count_stack] = input;
 	count_stack++;
 	printf("%d\n", count_stack);
 }
