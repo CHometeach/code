@@ -234,3 +234,11 @@ Sean 的保送之路
 
 ##### 回家作業：
 1. 實作二元樹前序、中序、後序
+2. 
+## 20160710
+1. #87 實作自製 Linked List 類別 
+2. 完成 `insert(node, index)`
+3. 完成 `remove(index)`
+
+##### 回家作業：
+1. Refactor your code. 
