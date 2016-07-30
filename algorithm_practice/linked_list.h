@@ -12,6 +12,7 @@ class Linked_List {
 		Linked_List() {
 			root = NULL;
 		}
+
 		Node *getNode(int data) {
 			Node *newNode = (Node *) malloc(sizeof(Node));
 			newNode->data = data;
@@ -19,7 +20,7 @@ class Linked_List {
 			return newNode;
 		}
 
-		void appendNode(Node *p) {
+		void append(Node *p) {
 			Node *pointer;
 			if(isEmpty()) {
 				root = p;
@@ -40,8 +41,57 @@ class Linked_List {
 			}
 			// cout << "n end" << endl;
 		}
-		void insert(Node *p) {
-			
+
+		void insert(Node *p, int index) {
+			Node *pointer;
+			int counter = 0;
+			if(isEmpty()) {
+				root = p;
+			}
+			else {
+				pointer = root;
+				while(pointer->next != NULL) {
+					if (counter == index) {
+						p->next = pointer->next;
+						pointer->next = p;
+						break;
+					}
+					else{
+						counter++;
+						pointer = pointer->next;
+					}
+				}
+			}
+		}
+		void remove(int index) {
+			Node *pointer;
+			int counter = 0;
+			if(isEmpty()) {
+				;
+			}
+			else {
+				pointer = root;
+				if (pointer->next == NULL ) {
+					pointer = NULL;
+				}
+				else {
+					while(pointer->next != NULL) {
+						if (counter+1 == index) {
+							pointer->next = pointer->next->next;
+							break;
+						}
+						else if (counter == index) {
+							root = pointer->next;
+							break;
+						}
+						else{
+							counter++;
+							pointer = pointer->next;
+						}
+					}
+				}
+
+			}
 		}
 
 		bool isEmpty() {
@@ -64,6 +114,7 @@ class Linked_List {
 					cout << p->data << " -> ";
 					p = p->next;
 				}
+				cout << p->data << " -> ";
 			}
 			cout << "NULL" << endl;
 			return 0;
