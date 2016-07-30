@@ -243,3 +243,13 @@ Sean 的保送之路
 
 ##### 回家作業：
 1. Refactor your code. 
+
+
+## 20160723
+1. 介紹 Graph 概念
+2. vertex, edge, weight 介紹
+3. BFS, DFS 簡介
+
+## 20160730
+1. BFS, DFS pseudo code
+2. Graph, Vertex 物件導向設計
